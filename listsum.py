@@ -1,3 +1,5 @@
+#uploaded on github
+
 def lsum(n,ls):
     '''
     objective: to compute the sum of a list entered by the user
