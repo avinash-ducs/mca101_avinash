@@ -1,2 +1,2 @@
 # mca101_avinash
-Code repository for Python
+Code repository for Python. Better understanding.
