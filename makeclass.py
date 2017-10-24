@@ -41,11 +41,11 @@ def computeModeratedMarks(file1, file2):
     fIn.close()
     fOut.close()
 
-    fOut = open(file2, 'rb')
+    fIn = open(file2, 'rb')
 
     while True:
         try:
-            print(pickle.load(fOut))
+            print(pickle.load(fIn))
         except EOFError:
             break
 
