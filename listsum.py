@@ -15,8 +15,8 @@ def lsum(n,ls):
               the value of the variable sum can be upadated simultaneously
     '''
     sum=0
-    for i in range(0,n):
-        sum+=ls[i]
+    for ele in ls:
+        sum += ele
     return sum
 
 
