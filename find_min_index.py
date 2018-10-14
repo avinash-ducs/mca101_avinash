@@ -9,20 +9,7 @@ def minOfList(lst, start=0, end=1):
     '''
 
     'approach: updating min_element using comparision in recursion and returning its index after traversing completely'
-    '''
-    if i == 0:
-        i = start
-        j = start
-    
-    if i == (end+1):
-        return j
-    else:
-        if lst[i] < lst[j]:
-            min_element = lst[i]
-            j = i
-        i = i+1    
-        return minOfList(lst,start, end, i, j)
-    '''
+   
     if end == len(lst)-1:
         return start
     elif lst[end] > lst[start]:
