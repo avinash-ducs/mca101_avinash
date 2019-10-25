@@ -9,7 +9,7 @@ def maxAtIndex(lst, index, i=0):
     
     if i == index:
         return
-    if lst[i] >= lst[i+1]:
+    if lst[i] > lst[i+1]:
         lst[i], lst[i+1] = lst[i+1], lst[i]
     return maxAtIndex(lst, index, i+1)
     
